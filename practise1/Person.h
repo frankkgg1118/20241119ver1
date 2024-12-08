@@ -12,19 +12,18 @@ private:
 	string birthDate;
 
 public:
-	//Constructor, 篶 篶ㄧ计
-	Person(const string& id,const string& lastName,const string& firstName,const string& gender,const string& birthDate);
+	// Constructor, 篶, 篶ㄧ计
+	Person(const string& id, const string& lastName, const string& firstName, const string& gender, const string& birthDate);
 	Person();
 
-	//Getter, ㄧ计
+	// Getter, ㄧ计
 	string getId() const;
 	string getLastName() const;
 	string getFirstName() const;
 	string getGender() const;
 	string getBirthDate() const;
 
-	
-	//setter, 砞ㄧ计
+	// Setter, 砞ㄧ计
 	void setId(const string& id);
 	void setLastName(const string& lastName);
 	void setFirstName(const string& firstName);
