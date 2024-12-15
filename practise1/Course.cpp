@@ -1,4 +1,4 @@
-#include "Course.h"
+﻿#include "Course.h"
 #include <iostream>
 using namespace std;
 
@@ -42,7 +42,7 @@ void Course::setCourseDescription(const string& courseDescription)
 
 void Course::display() const
 {
-	cout << "�ҵ{�N�X: " << courseId << endl;
-	cout << "�ҵ{�W��: " << courseName << endl;
-	cout << "�ҵ{�y�z: " << courseDescription << endl;
+	cout << "½Òµ{¥N½X: " << courseId << endl;
+	cout << "½Òµ{¦WºÙ: " << courseName << endl;
+	cout << "½Òµ{´y­z: " << courseDescription << endl;
 }
