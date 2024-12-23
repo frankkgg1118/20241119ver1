@@ -12,18 +12,18 @@ private:
 	string birthDate;
 
 public:
-	// Constructor, ???c?l, ???c????
+	// Constructor, 建構子, 建構函數
 	Person(const string& id, const string& lastName, const string& firstName, const string& gender, const string& birthDate);
 	Person();
 
-	// Getter, ????????
+	// Getter, 取值函數
 	string getId() const;
 	string getLastName() const;
 	string getFirstName() const;
 	string getGender() const;
 	string getBirthDate() const;
 
-	// Setter, ?]??????
+	// Setter, 設值函數
 	void setId(const string& id);
 	void setLastName(const string& lastName);
 	void setFirstName(const string& firstName);
@@ -32,3 +32,4 @@ public:
 
 	void display() const;
 };
+
